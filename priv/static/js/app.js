@@ -1637,6 +1637,7 @@ var Video = {
         body = _ref.body,
         at = _ref.at;
 
+    console.log(user);
     var template = document.createElement("div");
     template.innerHTML = "\n    <a href=\"#\" data-seek=\"" + this.esc(at) + "\">\n      <b>" + this.esc(user.username) + "</b>: " + this.esc(body) + "\n    </a>\n    ";
     msgContainer.appendChild(template);

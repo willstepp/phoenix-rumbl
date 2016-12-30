@@ -38,6 +38,7 @@ let Video = {
     return div.innerHTML;
   },
   renderAnnotation(msgContainer, {user, body, at}) {
+    console.log(user);
     let template = document.createElement("div");
     template.innerHTML =  `
     <a href="#" data-seek="${this.esc(at)}">
