@@ -6,3 +6,6 @@ erl_crash.dump
 
 node_modules
 logfile
+
+prod.secret.exs
+dev.secret.exs
